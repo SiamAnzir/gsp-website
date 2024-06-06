@@ -17,7 +17,7 @@ const TopHeader = () => {
                             <NavItem>
                                 {" "}
                                 <Nav.Link
-                                    href="/#products"
+                                    href="/"
                                     className="text-black text-decoration-none"
                                 >
                                     {" "}
@@ -30,7 +30,7 @@ const TopHeader = () => {
                             <NavItem>
                                 {" "}
                                 <Nav.Link
-                                    href="/#contact"
+                                    href="/#about"
                                     className="text-black text-decoration-none"
                                 >
                                     {" "}
@@ -42,7 +42,7 @@ const TopHeader = () => {
                             <NavItem>
                                 {" "}
                                 <Nav.Link
-                                    href="/#contact"
+                                    href="/#facilities"
                                     className="text-black text-decoration-none"
                                 >
                                     {" "}
@@ -54,7 +54,7 @@ const TopHeader = () => {
                             <NavItem>
                                 {" "}
                                 <Nav.Link
-                                    href="/#contact"
+                                    href="/#slot_time"
                                     className="text-black text-decoration-none"
                                 >
                                     {" "}
@@ -62,18 +62,18 @@ const TopHeader = () => {
                                 </Nav.Link>{" "}
                             </NavItem>
                         </div>
-                        <div style={{}}>
-                            <NavItem>
-                                {" "}
-                                <Nav.Link
-                                    href="/#contact"
-                                    className="text-black text-decoration-none"
-                                >
-                                    {" "}
-                                    Events{" "}
-                                </Nav.Link>{" "}
-                            </NavItem>
-                        </div>
+                        {/*<div style={{}}>*/}
+                        {/*    <NavItem>*/}
+                        {/*        {" "}*/}
+                        {/*        <Nav.Link*/}
+                        {/*            href="/#contact"*/}
+                        {/*            className="text-black text-decoration-none"*/}
+                        {/*        >*/}
+                        {/*            {" "}*/}
+                        {/*            Events{" "}*/}
+                        {/*        </Nav.Link>{" "}*/}
+                        {/*    </NavItem>*/}
+                        {/*</div>*/}
                         <div style={{}}>
                             <NavItem>
                                 {" "}
