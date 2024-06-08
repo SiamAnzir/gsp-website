@@ -80,7 +80,8 @@ const SlotTime = () => {
                         fontWeight: "600"
                     }}>
                         <a
-                            href="https://api.whatsapp.com/send/?phone=%2B8801727437077&text&type=phone_number&app_absent=0"
+                            //href="https://api.whatsapp.com/send/?phone=%2B8801727437077&text&type=phone_number&app_absent=0"
+                            href="https://quiket.me/activities/gsp/"
                             target="_blank"
                             rel="noreferrer"
                             style={{
