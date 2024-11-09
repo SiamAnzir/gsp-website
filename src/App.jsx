@@ -7,7 +7,6 @@ import SlotTime from "./components/Slot/SlotTime.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import WhatsappFloating from "./components/Utils/WhatsappFloating.jsx";
-import FbChat from "./components/FbChat/FbChat.jsx";
 
 const App = () => {
 
