@@ -3,7 +3,7 @@ import mainLogo from "../../assets/gsp.png"
 
 const TopHeader = () => {
     return (
-        <Navbar className="py-0" expand="lg" fixed="top" style={{background:"#f3f6fa", boxShadow: "0px 8px 7px -7px rgba(0, 0, 0, 0.15)"}}>
+        <Navbar className="py-0 text-white" expand="lg" fixed="top" style={{background:"#161617", boxShadow: "0px 8px 7px -7px rgba(0, 0, 0, 0.15)" }}>
             <Container>
                 <Nav className="py-0 navbar-brand">
                     <Nav.Link href="/" className="text-white text-decoration-none">
@@ -18,7 +18,7 @@ const TopHeader = () => {
                                 {" "}
                                 <Nav.Link
                                     href="/"
-                                    className="text-black text-decoration-none"
+                                    className="text-white text-decoration-none"
                                 >
                                     {" "}
                                     Home
@@ -31,7 +31,7 @@ const TopHeader = () => {
                                 {" "}
                                 <Nav.Link
                                     href="/#about"
-                                    className="text-black text-decoration-none"
+                                    className="text-white text-decoration-none"
                                 >
                                     {" "}
                                     About{" "}
@@ -43,7 +43,7 @@ const TopHeader = () => {
                                 {" "}
                                 <Nav.Link
                                     href="/#facilities"
-                                    className="text-black text-decoration-none"
+                                    className="text-white text-decoration-none"
                                 >
                                     {" "}
                                     Facilities{" "}
@@ -55,7 +55,7 @@ const TopHeader = () => {
                                 {" "}
                                 <Nav.Link
                                     href="/#slot_time"
-                                    className="text-black text-decoration-none"
+                                    className="text-white text-decoration-none"
                                 >
                                     {" "}
                                     Slot Time{" "}
@@ -78,8 +78,20 @@ const TopHeader = () => {
                             <NavItem>
                                 {" "}
                                 <Nav.Link
+                                    href="/#academy"
+                                    className="text-white text-decoration-none"
+                                >
+                                    {" "}
+                                    Academy{" "}
+                                </Nav.Link>{" "}
+                            </NavItem>
+                        </div>
+                        <div style={{}}>
+                            <NavItem>
+                                {" "}
+                                <Nav.Link
                                     href="/#contact"
-                                    className="text-black text-decoration-none"
+                                    className="text-white text-decoration-none"
                                 >
                                     {" "}
                                     Contact{" "}

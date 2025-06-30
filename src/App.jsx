@@ -7,6 +7,7 @@ import SlotTime from "./components/Slot/SlotTime.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import WhatsappFloating from "./components/Utils/WhatsappFloating.jsx";
+import Academy from "./components/Academy/Academy.jsx";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
       <AboutUs/>
       <Facilities/>
       <SlotTime/>
+      <Academy/>
       <Contact/>
       <Footer/>
       <WhatsappFloating/>

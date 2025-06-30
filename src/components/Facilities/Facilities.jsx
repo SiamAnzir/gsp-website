@@ -141,7 +141,7 @@ const Facilities = () => {
                                     height: "150px",
                                 }}
                             ></div>
-                            <p className="facilities-title">5/6/7 a Side</p>
+                            <p className="facilities-title">5/6 a Side</p>
                         </div>
                     </Col>
                     <Col lg={3}>

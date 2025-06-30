@@ -1,5 +1,5 @@
 import slider1 from "../assets/slider/gsp-1.webp";
-import slider2 from "../assets/slider/gsp2.webp";
+import slider2 from "../assets/slider/gsp5.webp";
 import slider3 from "../assets/slider/gsp-3.webp";
 import slider4 from "../assets/slider/gsp-4.webp";
 

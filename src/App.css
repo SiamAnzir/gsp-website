@@ -30,7 +30,7 @@ ol {
 :root {
   --primary-color: #0463b3;
   --secondary-color: #ff9900;
-  --background-color: #fafbfe;
+  --background-color: #04011c;
   --text-color: #637381;
   --white-color: #fff;
   --black-color: #000;
@@ -50,6 +50,7 @@ body {
   overflow-x: hidden !important;
   background-color: var(--background-color) !important;
   min-height: 100vh !important;
+  color: white !important;
 }
 
 #root {
@@ -57,7 +58,7 @@ body {
 }
 
 .header-title {
-  font-size: 16px;
+  font-size: 22px;
   color: var(--primary-color);
   font-weight: 600;
 }
@@ -87,7 +88,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: black;
+  background: #161617;
 }
 
 .footer_primary p {
@@ -141,6 +142,9 @@ body {
   z-index: 3;
 }
 
+.navbar-toggler {
+  background-color : #e0dede !important;
+}
 
 @media screen and (max-width: 576px){
   .slot-time-card {
@@ -152,5 +156,8 @@ body {
   .floating-whatsapp {
     bottom: 70px;
     z-index: 3;
+  }
+  .header-title {
+    font-size: 18px;
   }
 }

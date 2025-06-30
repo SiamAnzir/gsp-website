@@ -85,7 +85,7 @@ const Contact = () => {
                                     textDecoration: "none",
                                     fontSize: "16px",
                                     marginLeft: "7px",
-                                    color:"black"
+                                    color:"white"
                                 }}
                             >
                                 +8801727437077
