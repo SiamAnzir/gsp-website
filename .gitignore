@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude Code
+CLAUDE.md
+
+# Photo/video masters. These are the camera originals that feed
+# `npm run optimize:images` and scripts/encode-video.sh — hundreds of MB that
+# would sit in git history forever. The web renditions under public/media/ are
+# tracked instead, since those are what actually deploys. Keep the masters
+# backed up somewhere outside the repo.
+src/assets/_originals/

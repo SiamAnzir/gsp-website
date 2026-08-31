@@ -2,10 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="./src/assets/favIcon.png" />
+    <link rel="icon" href="/media/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Your ultimate destination for Futsal excellence. Join us for thrilling matches, top-notch facilities, and a community united by our love for the beautiful game. Step into the arena where champions are made and dreams take flight. `Get, Set & Play`"/>
-    <title>Galacticos Sports Pavillion</title>
+    <meta name="theme-color" content="#04011c" />
+
+    <title>Galacticos Sports Pavilion — Futsal in Uttara, Dhaka</title>
+    <meta
+      name="description"
+      content="Your ultimate destination for futsal excellence in Diabari, Uttara, Dhaka. FIFA certified grass, 5/6-a-side pitches, open 24/7. Book your slot at Galacticos Sports Pavilion."
+    />
+
+    <!-- Fonts are linked rather than @imported from CSS: an @import inside the
+         stylesheet blocks rendering twice over (fetch the CSS, then the font).
+         Preconnect opens the gstatic connection while the CSS is still in flight. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap"
+    />
+
+    <!-- Social previews: matters here because the site is shared over WhatsApp,
+         which is where nearly every booking conversation starts. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Galacticos Sports Pavilion" />
+    <meta
+      property="og:description"
+      content="Futsal excellence in Diabari, Uttara. FIFA certified grass, open 24/7. Get, Set & Play."
+    />
+    <!-- WhatsApp and Facebook require an absolute URL here; a relative one is
+         ignored and the link preview falls back to a bare text card.
+         VERIFY this domain matches the live site before deploying. -->
+    <meta property="og:url" content="https://galacticosbd.com/" />
+    <meta property="og:image" content="https://galacticosbd.com/media/academy/post-001-1200.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <div id="root"></div>

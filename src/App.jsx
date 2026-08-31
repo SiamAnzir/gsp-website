@@ -13,13 +13,16 @@ const App = () => {
 
   return (
     <>
+      <a href="#about" className="skip-link">Skip to content</a>
       <TopHeader/>
-      <Slider/>
-      <AboutUs/>
-      <Facilities/>
-      <SlotTime/>
-      <Academy/>
-      <Contact/>
+      <main>
+        <Slider/>
+        <AboutUs/>
+        <Facilities/>
+        <SlotTime/>
+        <Academy/>
+        <Contact/>
+      </main>
       <Footer/>
       <WhatsappFloating/>
     </>

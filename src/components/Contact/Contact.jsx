@@ -1,101 +1,93 @@
+import { Suspense, lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { MapContainer, TileLayer, Marker , Popup } from "react-leaflet";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDiamondTurnRight, faPhone} from "@fortawesome/free-solid-svg-icons";
-import markerImg from "../../assets/marker.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiamondTurnRight, faPhone, faTrainSubway } from "@fortawesome/free-solid-svg-icons";
+import SectionHeading from "../Utils/SectionHeading.jsx";
+import Reveal from "../Utils/Reveal.jsx";
+import useInView from "../../hooks/useInView.js";
+import {
+  ADDRESS,
+  DIRECTIONS_URL,
+  PHONE_PRIMARY,
+  PHONE_SECONDARY,
+} from "../../store/site.js";
+
+const MapPanel = lazy(() => import("./MapPanel.jsx"));
+
+const TRAVEL = [
+  "5-minute walk from Uttara North metro rail station",
+  "4-minute drive from Rupayan City, Uttara",
+  "15-minute drive from Mirpur DOHS",
+  "7-minute metro ride from Pallabi",
+  "10-minute metro ride from Mirpur 10",
+  "15-minute metro ride from Agargaon",
+  "20-minute metro ride from Farmgate",
+  "25-minute metro ride from Shahbag",
+];
 
 const Contact = () => {
-    const position = [23.875024,90.366943];
+  // The map only mounts once it nears the viewport, so its chunk is fetched on
+  // approach rather than competing with first paint.
+  const [mapRef, mapInView] = useInView({ rootMargin: "300px", threshold: 0 });
 
-    const markerIcon = new L.Icon({
-        iconUrl: markerImg,
-        iconRetinaUrl: markerImg,
-        iconSize: [40, 40],
-        iconAnchor: [17, 46], //[left/rht, top/bottom]
-        popupAnchor: [0, -46], //[left/right, top/bottom]
-    });
+  return (
+    <section id="contact" className="section">
+      <Container>
+        <SectionHeading eyebrow="Find us">Contact Us</SectionHeading>
 
-    return (
-        <section id="contact" className="mt-5">
-            <Container>
-                <div className="d-flex align-items-center justify-content-center">
-                    <div className="header-title">
-                        CONTACT US
-                    </div>
-                    <div className="single-line"></div>
-                </div>
-            </Container>
-            <Container>
-                <Row className="my-3 d-flex justify-content-center align-items-center">
-                    <Col md={12} lg={9}>
-                        <MapContainer center={position} zoom={14} scrollWheelZoom={false}>
-                            <TileLayer
-                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                            />
-                            <Marker position={position} icon={markerIcon}>
-                                <Popup> Diyabari Mor, Uttara West of 5 no metro rail pillar, Dhaka 1230 <a href="https://maps.app.goo.gl/ycjZrnznTU8zuAWM7" target="_blank" style={{color:"blue", fontWeight:"600"}}>Get Directions</a> </Popup>
-                            </Marker>
-                        </MapContainer>
-                    </Col>
-                    <Col md={12} lg={3}>
-                        <p>
-                            <a href="https://maps.app.goo.gl/ycjZrnznTU8zuAWM7" target="_blank"
-                               style={{ fontWeight: "600"}}>
-                                Get Directions
-                                <FontAwesomeIcon icon={faDiamondTurnRight} style={{paddingLeft: ".5rem"}}/>
-                            </a>
-                        </p>
-                        <ul style={{fontSize: "14px"}}>
-                            <li>
-                                5-minute walk from the North Metro Rail station of Uttara.
-                            </li>
-                            <li>
-                                4-minute driving distance from Rupayan city, Uttara.
-                            </li>
-                            <li>
-                                15-minute driving distance from Mirpur Dohs.
-                            </li>
-                            <li>
-                                25-minute Metro rail ride from Shahbag.
-                            </li>
-                            <li>
-                                20-minute Metro Rail ride from Farmgate.
-                            </li>
-                            <li>
-                                15-minute Metro Rail ride from Agargaon
-                            </li>
-                            <li>
-                                10-minute Metro Rail ride from Mirpur 10.
-                            </li>
-                            <li>
-                                7-minute Metro Rail ride from Pallabi.
-                            </li>
-                        </ul>
-                        <p style={{ fontWeight: "600", textDecoration: "none"}}>
-                            <span style={{color:"#0463b3",textDecoration:"underline"}}>
-                                <FontAwesomeIcon icon={faPhone} style={{paddingRight: ".5rem"}}/>
-                                Hotline:
-                            </span>
-                            <a
-                                href="tel:+8801727437077"
-                                style={{
-                                    textDecoration: "none",
-                                    fontSize: "16px",
-                                    marginLeft: "7px",
-                                    color:"white"
-                                }}
-                            >
-                                +8801727437077
-                            </a>
-                        </p>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
-    );
+        <Row className="g-4 align-items-stretch">
+          <Col lg={8}>
+            <Reveal variant="up" className="h-100">
+              <div ref={mapRef} className="map-shell">
+                {mapInView ? (
+                  <Suspense fallback={<div className="map-shell__placeholder">Loading map…</div>}>
+                    <MapPanel />
+                  </Suspense>
+                ) : (
+                  <div className="map-shell__placeholder" />
+                )}
+              </div>
+            </Reveal>
+          </Col>
+
+          <Col lg={4}>
+            <Reveal variant="right" delay={80} className="contact-panel h-100">
+              <p className="contact-panel__address">{ADDRESS}</p>
+
+              <a
+                href={DIRECTIONS_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="cta-button cta-button--ghost"
+              >
+                Get Directions
+                <FontAwesomeIcon icon={faDiamondTurnRight} className="ms-2" />
+              </a>
+
+              <h3 className="contact-panel__subtitle">
+                <FontAwesomeIcon icon={faTrainSubway} className="me-2" />
+                Getting here
+              </h3>
+              <ul className="contact-panel__list">
+                {TRAVEL.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+
+              <h3 className="contact-panel__subtitle">
+                <FontAwesomeIcon icon={faPhone} className="me-2" />
+                Hotline
+              </h3>
+              <p className="contact-panel__phones">
+                <a href={`tel:${PHONE_PRIMARY}`}>{PHONE_PRIMARY}</a>
+                <a href={`tel:${PHONE_SECONDARY}`}>{PHONE_SECONDARY}</a>
+              </p>
+            </Reveal>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
 };
 
 export default Contact;

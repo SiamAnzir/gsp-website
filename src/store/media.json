@@ -1,0 +1,1126 @@
+{
+  "academy": [
+    {
+      "name": "img-0773",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-0773-400.avif",
+            "bytes": 22256
+          },
+          {
+            "width": 800,
+            "file": "img-0773-800.avif",
+            "bytes": 80523
+          },
+          {
+            "width": 1200,
+            "file": "img-0773-1200.avif",
+            "bytes": 168320
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-0773-400.webp",
+            "bytes": 27882
+          },
+          {
+            "width": 800,
+            "file": "img-0773-800.webp",
+            "bytes": 102918
+          },
+          {
+            "width": 1200,
+            "file": "img-0773-1200.webp",
+            "bytes": 214412
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-0773-800.jpg",
+            "bytes": 119896
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-0773-800.jpg"
+    },
+    {
+      "name": "img-1575",
+      "width": 4032,
+      "height": 3024,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1575-400.avif",
+            "bytes": 16683
+          },
+          {
+            "width": 800,
+            "file": "img-1575-800.avif",
+            "bytes": 73537
+          },
+          {
+            "width": 1200,
+            "file": "img-1575-1200.avif",
+            "bytes": 206869
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1575-400.webp",
+            "bytes": 28400
+          },
+          {
+            "width": 800,
+            "file": "img-1575-800.webp",
+            "bytes": 134432
+          },
+          {
+            "width": 1200,
+            "file": "img-1575-1200.webp",
+            "bytes": 308716
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1575-800.jpg",
+            "bytes": 116889
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "img-1575-800.jpg"
+    },
+    {
+      "name": "img-1579",
+      "width": 4032,
+      "height": 3024,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1579-400.avif",
+            "bytes": 13095
+          },
+          {
+            "width": 800,
+            "file": "img-1579-800.avif",
+            "bytes": 50815
+          },
+          {
+            "width": 1200,
+            "file": "img-1579-1200.avif",
+            "bytes": 121581
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1579-400.webp",
+            "bytes": 18034
+          },
+          {
+            "width": 800,
+            "file": "img-1579-800.webp",
+            "bytes": 77438
+          },
+          {
+            "width": 1200,
+            "file": "img-1579-1200.webp",
+            "bytes": 181460
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1579-800.jpg",
+            "bytes": 78779
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "img-1579-800.jpg"
+    },
+    {
+      "name": "img-1583",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1583-400.avif",
+            "bytes": 24409
+          },
+          {
+            "width": 800,
+            "file": "img-1583-800.avif",
+            "bytes": 97730
+          },
+          {
+            "width": 1200,
+            "file": "img-1583-1200.avif",
+            "bytes": 218478
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1583-400.webp",
+            "bytes": 32686
+          },
+          {
+            "width": 800,
+            "file": "img-1583-800.webp",
+            "bytes": 140224
+          },
+          {
+            "width": 1200,
+            "file": "img-1583-1200.webp",
+            "bytes": 328494
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1583-800.jpg",
+            "bytes": 145283
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-1583-800.jpg"
+    },
+    {
+      "name": "img-1586",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1586-400.avif",
+            "bytes": 30896
+          },
+          {
+            "width": 800,
+            "file": "img-1586-800.avif",
+            "bytes": 123769
+          },
+          {
+            "width": 1200,
+            "file": "img-1586-1200.avif",
+            "bytes": 273449
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1586-400.webp",
+            "bytes": 48944
+          },
+          {
+            "width": 800,
+            "file": "img-1586-800.webp",
+            "bytes": 200558
+          },
+          {
+            "width": 1200,
+            "file": "img-1586-1200.webp",
+            "bytes": 407246
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1586-800.jpg",
+            "bytes": 188968
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-1586-800.jpg"
+    },
+    {
+      "name": "img-1691",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1691-400.avif",
+            "bytes": 27885
+          },
+          {
+            "width": 800,
+            "file": "img-1691-800.avif",
+            "bytes": 110892
+          },
+          {
+            "width": 1200,
+            "file": "img-1691-1200.avif",
+            "bytes": 242125
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1691-400.webp",
+            "bytes": 37848
+          },
+          {
+            "width": 800,
+            "file": "img-1691-800.webp",
+            "bytes": 161698
+          },
+          {
+            "width": 1200,
+            "file": "img-1691-1200.webp",
+            "bytes": 359860
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1691-800.jpg",
+            "bytes": 162956
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-1691-800.jpg"
+    },
+    {
+      "name": "img-1748",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1748-400.avif",
+            "bytes": 21840
+          },
+          {
+            "width": 800,
+            "file": "img-1748-800.avif",
+            "bytes": 75798
+          },
+          {
+            "width": 1200,
+            "file": "img-1748-1200.avif",
+            "bytes": 159872
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1748-400.webp",
+            "bytes": 25932
+          },
+          {
+            "width": 800,
+            "file": "img-1748-800.webp",
+            "bytes": 89452
+          },
+          {
+            "width": 1200,
+            "file": "img-1748-1200.webp",
+            "bytes": 176226
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1748-800.jpg",
+            "bytes": 115192
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-1748-800.jpg"
+    },
+    {
+      "name": "img-1749",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-1749-400.avif",
+            "bytes": 20590
+          },
+          {
+            "width": 800,
+            "file": "img-1749-800.avif",
+            "bytes": 74199
+          },
+          {
+            "width": 1200,
+            "file": "img-1749-1200.avif",
+            "bytes": 158425
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-1749-400.webp",
+            "bytes": 23856
+          },
+          {
+            "width": 800,
+            "file": "img-1749-800.webp",
+            "bytes": 89646
+          },
+          {
+            "width": 1200,
+            "file": "img-1749-1200.webp",
+            "bytes": 183880
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-1749-800.jpg",
+            "bytes": 111674
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-1749-800.jpg"
+    },
+    {
+      "name": "img-8681",
+      "width": 3024,
+      "height": 4032,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-8681-400.avif",
+            "bytes": 31290
+          },
+          {
+            "width": 800,
+            "file": "img-8681-800.avif",
+            "bytes": 112708
+          },
+          {
+            "width": 1200,
+            "file": "img-8681-1200.avif",
+            "bytes": 219486
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-8681-400.webp",
+            "bytes": 40630
+          },
+          {
+            "width": 800,
+            "file": "img-8681-800.webp",
+            "bytes": 148258
+          },
+          {
+            "width": 1200,
+            "file": "img-8681-1200.webp",
+            "bytes": 286916
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-8681-800.jpg",
+            "bytes": 165676
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-8681-800.jpg"
+    },
+    {
+      "name": "img-8688",
+      "width": 6048,
+      "height": 8064,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-8688-400.avif",
+            "bytes": 27843
+          },
+          {
+            "width": 800,
+            "file": "img-8688-800.avif",
+            "bytes": 123722
+          },
+          {
+            "width": 1200,
+            "file": "img-8688-1200.avif",
+            "bytes": 246584
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-8688-400.webp",
+            "bytes": 40700
+          },
+          {
+            "width": 800,
+            "file": "img-8688-800.webp",
+            "bytes": 154000
+          },
+          {
+            "width": 1200,
+            "file": "img-8688-1200.webp",
+            "bytes": 317054
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-8688-800.jpg",
+            "bytes": 167897
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-8688-800.jpg"
+    },
+    {
+      "name": "img-8733",
+      "width": 3486,
+      "height": 4648,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-8733-400.avif",
+            "bytes": 34304
+          },
+          {
+            "width": 800,
+            "file": "img-8733-800.avif",
+            "bytes": 119027
+          },
+          {
+            "width": 1200,
+            "file": "img-8733-1200.avif",
+            "bytes": 244769
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-8733-400.webp",
+            "bytes": 44218
+          },
+          {
+            "width": 800,
+            "file": "img-8733-800.webp",
+            "bytes": 157338
+          },
+          {
+            "width": 1200,
+            "file": "img-8733-1200.webp",
+            "bytes": 331166
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-8733-800.jpg",
+            "bytes": 175637
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-8733-800.jpg"
+    },
+    {
+      "name": "img-9887",
+      "width": 6048,
+      "height": 8064,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "img-9887-400.avif",
+            "bytes": 28772
+          },
+          {
+            "width": 800,
+            "file": "img-9887-800.avif",
+            "bytes": 100474
+          },
+          {
+            "width": 1200,
+            "file": "img-9887-1200.avif",
+            "bytes": 213317
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "img-9887-400.webp",
+            "bytes": 37074
+          },
+          {
+            "width": 800,
+            "file": "img-9887-800.webp",
+            "bytes": 137342
+          },
+          {
+            "width": 1200,
+            "file": "img-9887-1200.webp",
+            "bytes": 300882
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "img-9887-800.jpg",
+            "bytes": 151917
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "img-9887-800.jpg"
+    },
+    {
+      "name": "post-001",
+      "width": 2703,
+      "height": 2266,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "post-001-400.avif",
+            "bytes": 21161
+          },
+          {
+            "width": 800,
+            "file": "post-001-800.avif",
+            "bytes": 78332
+          },
+          {
+            "width": 1200,
+            "file": "post-001-1200.avif",
+            "bytes": 157771
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "post-001-400.webp",
+            "bytes": 32302
+          },
+          {
+            "width": 800,
+            "file": "post-001-800.webp",
+            "bytes": 118146
+          },
+          {
+            "width": 1200,
+            "file": "post-001-1200.webp",
+            "bytes": 239528
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "post-001-800.jpg",
+            "bytes": 116767
+          }
+        ]
+      },
+      "ratio": 1.1929,
+      "fallback": "post-001-800.jpg"
+    },
+    {
+      "name": "post-002",
+      "width": 2703,
+      "height": 2266,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "post-002-400.avif",
+            "bytes": 13180
+          },
+          {
+            "width": 800,
+            "file": "post-002-800.avif",
+            "bytes": 54373
+          },
+          {
+            "width": 1200,
+            "file": "post-002-1200.avif",
+            "bytes": 138209
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "post-002-400.webp",
+            "bytes": 16722
+          },
+          {
+            "width": 800,
+            "file": "post-002-800.webp",
+            "bytes": 75976
+          },
+          {
+            "width": 1200,
+            "file": "post-002-1200.webp",
+            "bytes": 204932
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "post-002-800.jpg",
+            "bytes": 79243
+          }
+        ]
+      },
+      "ratio": 1.1929,
+      "fallback": "post-002-800.jpg"
+    },
+    {
+      "name": "post-003",
+      "width": 2703,
+      "height": 2266,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "post-003-400.avif",
+            "bytes": 14573
+          },
+          {
+            "width": 800,
+            "file": "post-003-800.avif",
+            "bytes": 58482
+          },
+          {
+            "width": 1200,
+            "file": "post-003-1200.avif",
+            "bytes": 130228
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "post-003-400.webp",
+            "bytes": 20290
+          },
+          {
+            "width": 800,
+            "file": "post-003-800.webp",
+            "bytes": 89788
+          },
+          {
+            "width": 1200,
+            "file": "post-003-1200.webp",
+            "bytes": 200950
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "post-003-800.jpg",
+            "bytes": 92653
+          }
+        ]
+      },
+      "ratio": 1.1929,
+      "fallback": "post-003-800.jpg"
+    },
+    {
+      "name": "post-004",
+      "width": 2703,
+      "height": 2266,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "post-004-400.avif",
+            "bytes": 18967
+          },
+          {
+            "width": 800,
+            "file": "post-004-800.avif",
+            "bytes": 68987
+          },
+          {
+            "width": 1200,
+            "file": "post-004-1200.avif",
+            "bytes": 132596
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "post-004-400.webp",
+            "bytes": 26372
+          },
+          {
+            "width": 800,
+            "file": "post-004-800.webp",
+            "bytes": 92616
+          },
+          {
+            "width": 1200,
+            "file": "post-004-1200.webp",
+            "bytes": 182908
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "post-004-800.jpg",
+            "bytes": 101292
+          }
+        ]
+      },
+      "ratio": 1.1929,
+      "fallback": "post-004-800.jpg"
+    },
+    {
+      "name": "whatsapp-image-2026-08-21-at-12-04-51-pm",
+      "width": 1200,
+      "height": 1600,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-400.avif",
+            "bytes": 25782
+          },
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-800.avif",
+            "bytes": 96274
+          },
+          {
+            "width": 1200,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-1200.avif",
+            "bytes": 204027
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-400.webp",
+            "bytes": 31858
+          },
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-800.webp",
+            "bytes": 125928
+          },
+          {
+            "width": 1200,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-1200.webp",
+            "bytes": 231960
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-21-at-12-04-51-pm-800.jpg",
+            "bytes": 132756
+          }
+        ]
+      },
+      "ratio": 0.75,
+      "fallback": "whatsapp-image-2026-08-21-at-12-04-51-pm-800.jpg"
+    },
+    {
+      "name": "whatsapp-image-2026-08-30-at-7-48-19-pm",
+      "width": 1080,
+      "height": 1350,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-400.avif",
+            "bytes": 34975
+          },
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-800.avif",
+            "bytes": 85721
+          },
+          {
+            "width": 1080,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-1080.avif",
+            "bytes": 137253
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-400.webp",
+            "bytes": 46274
+          },
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-800.webp",
+            "bytes": 113774
+          },
+          {
+            "width": 1080,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-1080.webp",
+            "bytes": 159550
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "whatsapp-image-2026-08-30-at-7-48-19-pm-800.jpg",
+            "bytes": 153015
+          }
+        ]
+      },
+      "ratio": 0.8,
+      "fallback": "whatsapp-image-2026-08-30-at-7-48-19-pm-800.jpg"
+    },
+    {
+      "name": "post-005",
+      "width": 2468,
+      "height": 2069,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "post-005-400.avif",
+            "bytes": 19810
+          },
+          {
+            "width": 800,
+            "file": "post-005-800.avif",
+            "bytes": 68704
+          },
+          {
+            "width": 1200,
+            "file": "post-005-1200.avif",
+            "bytes": 132617
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "post-005-400.webp",
+            "bytes": 29298
+          },
+          {
+            "width": 800,
+            "file": "post-005-800.webp",
+            "bytes": 98802
+          },
+          {
+            "width": 1200,
+            "file": "post-005-1200.webp",
+            "bytes": 190844
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "post-005-800.jpg",
+            "bytes": 104843
+          }
+        ]
+      },
+      "ratio": 1.1928,
+      "fallback": "post-005-800.jpg"
+    }
+  ],
+  "slider": [
+    {
+      "name": "gsp-1",
+      "width": 760,
+      "height": 570,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "gsp-1-400.avif",
+            "bytes": 10458
+          },
+          {
+            "width": 760,
+            "file": "gsp-1-760.avif",
+            "bytes": 51028
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "gsp-1-400.webp",
+            "bytes": 12676
+          },
+          {
+            "width": 760,
+            "file": "gsp-1-760.webp",
+            "bytes": 67014
+          }
+        ],
+        "jpg": [
+          {
+            "width": 760,
+            "file": "gsp-1-760.jpg",
+            "bytes": 60282
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "gsp-1-760.jpg"
+    },
+    {
+      "name": "gsp-2",
+      "width": 4032,
+      "height": 3024,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "gsp-2-400.avif",
+            "bytes": 14832
+          },
+          {
+            "width": 800,
+            "file": "gsp-2-800.avif",
+            "bytes": 52047
+          },
+          {
+            "width": 1200,
+            "file": "gsp-2-1200.avif",
+            "bytes": 112110
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "gsp-2-400.webp",
+            "bytes": 17688
+          },
+          {
+            "width": 800,
+            "file": "gsp-2-800.webp",
+            "bytes": 62944
+          },
+          {
+            "width": 1200,
+            "file": "gsp-2-1200.webp",
+            "bytes": 133116
+          }
+        ],
+        "jpg": [
+          {
+            "width": 800,
+            "file": "gsp-2-800.jpg",
+            "bytes": 74703
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "gsp-2-800.jpg"
+    },
+    {
+      "name": "gsp-3",
+      "width": 760,
+      "height": 570,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "gsp-3-400.avif",
+            "bytes": 13291
+          },
+          {
+            "width": 760,
+            "file": "gsp-3-760.avif",
+            "bytes": 58525
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "gsp-3-400.webp",
+            "bytes": 23148
+          },
+          {
+            "width": 760,
+            "file": "gsp-3-760.webp",
+            "bytes": 108362
+          }
+        ],
+        "jpg": [
+          {
+            "width": 760,
+            "file": "gsp-3-760.jpg",
+            "bytes": 92669
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "gsp-3-760.jpg"
+    },
+    {
+      "name": "gsp-4",
+      "width": 760,
+      "height": 570,
+      "sources": {
+        "avif": [
+          {
+            "width": 400,
+            "file": "gsp-4-400.avif",
+            "bytes": 8099
+          },
+          {
+            "width": 760,
+            "file": "gsp-4-760.avif",
+            "bytes": 35875
+          }
+        ],
+        "webp": [
+          {
+            "width": 400,
+            "file": "gsp-4-400.webp",
+            "bytes": 8496
+          },
+          {
+            "width": 760,
+            "file": "gsp-4-760.webp",
+            "bytes": 42150
+          }
+        ],
+        "jpg": [
+          {
+            "width": 760,
+            "file": "gsp-4-760.jpg",
+            "bytes": 42605
+          }
+        ]
+      },
+      "ratio": 1.3333,
+      "fallback": "gsp-4-760.jpg"
+    }
+  ]
+}

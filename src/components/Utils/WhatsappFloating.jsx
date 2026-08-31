@@ -1,17 +1,22 @@
-import whatsapp from "../../assets/Whatsapp.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { WHATSAPP_URL } from "../../store/site.js";
 
-const WhatsappFloating = () => {
-    return (
-        <div className="floating-whatsapp">
-            <a
-                href="https://api.whatsapp.com/send/?phone=%2B8801727437077&text&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noreferrer"
-            >
-                <img src={whatsapp} alt="whatsapp" className="w-100" />
-            </a>
-        </div>
-    );
-};
+/**
+ * Swapped from a PNG to the FontAwesome glyph already in the bundle: it stays
+ * crisp at any density and drops an image request from every page load.
+ */
+const WhatsappFloating = () => (
+  <a
+    className="floating-whatsapp"
+    href={WHATSAPP_URL}
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Chat with us on WhatsApp"
+  >
+    <FontAwesomeIcon icon={faWhatsapp} />
+    <span className="floating-whatsapp__label">Chat with us</span>
+  </a>
+);
 
 export default WhatsappFloating;

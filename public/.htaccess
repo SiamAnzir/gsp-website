@@ -1,0 +1,90 @@
+# Galacticos Sports Pavilion — Apache config for cPanel shared hosting.
+#
+# Lives in public/ so Vite copies it into dist/ on every build; upload it
+# alongside index.html into public_html.
+#
+# Each block is wrapped in <IfModule> because shared hosts vary in what they
+# enable — a missing module makes the block inert rather than throwing a 500.
+
+# ----------------------------------------------------------------- compression
+# The single biggest win available without touching code: the JS and CSS
+# bundles compress roughly 4x. Images and video are already compressed and are
+# deliberately left out.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+  AddOutputFilterByType DEFLATE application/json application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml application/rss+xml
+  AddOutputFilterByType DEFLATE font/ttf font/otf application/vnd.ms-fontobject
+</IfModule>
+
+# Brotli beats gzip by another ~15% where the host offers it.
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript application/json
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml
+</IfModule>
+
+# ---------------------------------------------------------------------- cache
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Vite fingerprints everything in /assets/, and files under /media/ carry
+  # their width in the filename — both change name when they change content,
+  # so a long TTL is safe. Replacing a photo means writing a new filename.
+  ExpiresByType image/avif                "access plus 1 year"
+  ExpiresByType image/webp                "access plus 1 year"
+  ExpiresByType image/jpeg                "access plus 1 year"
+  ExpiresByType image/png                 "access plus 1 year"
+  ExpiresByType image/svg+xml             "access plus 1 year"
+  ExpiresByType video/mp4                 "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 year"
+  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType font/woff2                "access plus 1 year"
+
+  # index.html must never be cached, or visitors keep loading the old bundle
+  # after a deploy and never see the update.
+  ExpiresByType text/html                 "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(avif|webp|jpe?g|png|svg|mp4|css|js|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always unset X-Powered-By
+</IfModule>
+
+# ------------------------------------------------------------------- mime types
+# Older Apache builds on shared hosting do not know AVIF, and will serve it as
+# octet-stream, which browsers refuse to render.
+<IfModule mod_mime.c>
+  AddType image/avif  .avif
+  AddType image/webp  .webp
+  AddType font/woff2  .woff2
+  AddType video/mp4   .mp4
+</IfModule>
+
+# Lets the browser seek in the video instead of downloading from the start.
+<IfModule mod_headers.c>
+  <FilesMatch "\.mp4$">
+    Header set Accept-Ranges bytes
+  </FilesMatch>
+</IfModule>
+
+# ------------------------------------------------------------------- single page
+# The site is one page with hash anchors, so this only matters for stray URLs:
+# send anything that is not a real file back to index.html rather than a 404.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
